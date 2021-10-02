@@ -1,0 +1,14 @@
+compiling .cpp file in macos vs code terminal, and  windows machine
+
+  first --->  g++ -o file01 file.cpp
+  second--->  ./file01
+                       //-o is    --->the letter O not zero
+
+                       //file01  --->will be your executable file
+
+                       //file.cpp --->is your c++ file
+
+
+
+
+
