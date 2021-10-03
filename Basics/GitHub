@@ -1,0 +1,32 @@
+< open terminal in that folder>
+< create new repositories >
+touch.gitignore    // to avoid those huge files // just type names of those files in the text file
+git config --global user.name <name>
+git config --global user.email <"email">
+***************************************************************************
+// ********* for first  time for that folder or project ***************
+***************************************************************************
+
+git init
+git add .
+git commit -m "Initial commit"
+git status    // just to see progress
+git remote add origin   <copy and paste the HTTPS link of your repositories >
+git push  origin master
+
+*****************************************************************
+// when updating new codes from that file to repo to gtihub
+*****************************************************************
+
+<open that folder into terminal>
+git add .
+git commit -m "Initial commit"
+git status    // just to see progress
+git push  origin master
+
+*****************************************************************
+// when giving error whilw pushing code to repo
+*****************************************************************
+
+git pull --rebase origin master
+git push origin master
