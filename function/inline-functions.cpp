@@ -28,6 +28,13 @@ using namespace std;
 
 
 inline int sum(int a, int b) // inline function
+        // inline  is a request to the compiler to make a function a inline
+        // a function can accept or decline our request for inline function
+        // if the function statisfies all condition for inline function only then 
+        // compiler will allow 
+
+        // like sending friend request to someone, now it's totally depend on them
+        // they can accpet or reject your application 😂
 {  
      
     int c =a+b;       
