@@ -1,5 +1,21 @@
 
-/// C++ --> initially called C with classes by Stroustroup
+// C++ --> initially called C with classes by Stroustroup
+// class ---> extension of structures of C language
+// structures had limitation
+//          - members are public
+//          - no methods
+// classes --> structures + some extras
+// classes --> can have methods and properties
+// classes --> can make few members as private few as public
+// in C++ structures come with typedef default, not like C 
+// You can declare objects with the class declaration like:
+/*
+    class Employee{
+        //class defination
+        
+    }krish,Ram,Sam;*/
+
+
 
 
 #include <iostream>

@@ -8,20 +8,28 @@
 
 using namespace std;
 
-class binary{
-    string s;
-    public:
-        void read(void);
-        void check_binary(void);
+class binary{        // class --> keyword , binary --> user defined name
+
+    string s;        // by default all data member is private
+    // data member 
+    public:          // Access modifier(public,private,protected)
+        void read(void);        // all of these called member functions
+        void check_binary(void);  
         void swap_indices();
         void display();
 };
-void binary ::read(void)
-{
-    cout<<"enter a binary number : ";
-    cin>>s;
-}
+/*
+Method -->A method is a collection of statements that perform 
+some specific task and return result to the caller.
+A method can perform some specific task without returning anything.
+and written in btw parenthesis.
+*/
+void binary ::read(void)    //defination of member function
 
+{
+    cout<<"enter a binary number : ";  // this is called methods
+    cin>>s;                            //
+}
 void binary ::check_binary(){
     for (int i = 0; i < s.length(); i++)
     {
@@ -37,6 +45,7 @@ void binary ::check_binary(){
 }
 void binary ::swap_indices()
 {
+    check_binary();
     for (int i = 0; i < s.length(); i++)
     {
         /* code */
@@ -64,9 +73,18 @@ void binary ::display()
 int main()
 {
     //driver program
-    binary b;
+    binary b;     // b is a object of binary class
     b.read();
-    b.check_binary();
+   
+   // b.check_binary(); 
+   
+   /* 
+   instead of calling function here we can call 
+   this function in other functions,so user don't have to do anything
+
+    check_binary() is defined in swap_indices() function
+    ----> it's called Nesting of member function
+   */
     b.swap_indices();
     b.display();
 
