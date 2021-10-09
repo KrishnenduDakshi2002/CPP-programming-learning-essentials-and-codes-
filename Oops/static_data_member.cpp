@@ -3,7 +3,7 @@ using namespace std;
 class Employee{
 
     int id;
-    //int count;    // here can't flow the updaated count
+    //int count;    // here can't flow the updated count
                     // through all objects
 
     static int count; // it's a static variable // default value = 0
