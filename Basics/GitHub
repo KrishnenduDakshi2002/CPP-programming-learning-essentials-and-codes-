@@ -25,8 +25,16 @@ git status    // just to see progress
 git push  origin master
 
 *****************************************************************
-// when giving error whilw pushing code to repo
+// when giving error while pushing code to repo
 *****************************************************************
 
 git pull --rebase origin master
 git push origin master
+
+*****************************************************************
+// when giving error while pushing code to repo
+*****************************************************************
+
+use 
+
+git push -f origin master  --->this will force push to origin master
