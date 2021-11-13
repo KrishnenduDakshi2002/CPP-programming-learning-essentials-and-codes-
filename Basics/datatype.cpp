@@ -9,7 +9,7 @@ int main()
     long a1 =12368734987;
     bool tf = true;
     short ac= 123;
-̃
+
     
     cout<<"\nvalue of a is:"<<a<< "\nThe value of b is:"<<b;
     cout<<"\nvalue of str is:"<<str;
