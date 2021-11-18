@@ -9,8 +9,7 @@ class A
 {
     int a;
     public:
-        void setData(int a) // it can be written as {{ A & setData(int a)}}
-        // then it will return object
+        void setData(int a) // it can be written as {{ A & setData(int a)}} , then it will return object
         {
             this->a=a;  // {{this}} is a pointer
         }
@@ -25,7 +24,11 @@ class A
             A & setData(int a)    // instead {{ void }} --> {{ A & }}(which returns address of object of class A)
             {
                 this->a=a;
-                return *this;   //--> dereferencing this pointer
+                return *this;   //this pointer stores the address of that object which invokes setData() method
+                
+                // if i create an object obj1, and then i want to invoke the setData() method by using obj1, then this pointer
+                // will store the address of that object obj1
+                //--> dereferencing this pointer
             }
             
 
