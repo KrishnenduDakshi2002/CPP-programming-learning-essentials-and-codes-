@@ -90,7 +90,7 @@ int main()
     cout<<" Displaying vector...."<<endl;
     display_vector(vec1);
 
-
+    list1.merge(list1);
 
     
     return 0;
