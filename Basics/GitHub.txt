@@ -38,3 +38,12 @@ git push origin master
 use 
 
 git push -f origin master  --->this will force push to origin master
+
+
+
+************** when using GitHub access token ****************
+Goto GitHub->settings->developer settings->access token->new token->copy that token->update token
+
+When to push to remote origin through terminal then it will ask for username of GitHub account"KrishnenduDakshi2002" and password 
+In the password section just paste that token just generated before
+And you are good to goo!!
