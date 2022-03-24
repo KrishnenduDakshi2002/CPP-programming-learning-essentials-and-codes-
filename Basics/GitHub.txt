@@ -37,13 +37,14 @@ git push origin master
 
 use 
 
-git push -f origin master  --->this will force push to origin master
+git push -f origin master  --->this will force push to origin master.  // please don't do these it will disrupt the commit history
 
-
+instead You can create a branch and push your changes to that branch and then create a pull request to the main branch.
+if you are facing conflicts during merging a branch then you need to manually merge that branch
 
 ************** when using GitHub access token ****************
-Goto GitHub->settings->developer settings->access token->new token->copy that token->update token
+Goto GitHub->settings->developer settings->access token->new token(check repo checkbox & click on generater token)->copy that token
 
-When to push to remote origin through terminal then it will ask for username of GitHub account"KrishnenduDakshi2002" and password 
+When to push to remote origin through terminal then it will ask for username(krishnendu Dakshi) of GitHub account"KrishnenduDakshi2002" and password 
 In the password section just paste that token just generated before
 And you are good to goo!!
