@@ -1,8 +1,14 @@
 #include <stdio.h>
 #include <string.h>
+
+
+// sample for your testing
+// 12
+// 1 1 2 1 2 3 4 5 3 2 4 1
 void printArray(int a[], int size)
 {
-    for (int i = 0; i < size; i++)
+    //printing in reverse order
+    for (int i = size-1; i >=0; i--)
     {
         printf("%d", a[i]);
         printf("%c", ' ');
@@ -29,8 +35,7 @@ int main()
     int n;
     scanf("%d", &n);
     int a[n], res[n], index = 0,count =0;
-    // int f[n];
-    // memset(f,0,n*sizeof(f[0]));
+
     for (int i = 0; i < n; i++)
     {
         scanf("%d", &a[i]);
